@@ -21,7 +21,7 @@ setup(
     packages=packages,
     install_requires=install_requires,
     extras_require=extras_require,
-    entry_points={'dwave.samplers': ['a_name = dwave_a:ASampler'],
+    entry_points={'dwave.samplers': ['ASampler = dwave_a:ASampler'],
                   'dwave.composites': ['AComposite = dwave_a:AComposite'],
                   'dwave.utilities': ['a_function = dwave_a:a_function']}
 )
